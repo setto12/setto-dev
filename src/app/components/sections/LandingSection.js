@@ -2,6 +2,7 @@ import Section from "../ui/Section"
 import Button from "../ui/Button"
 import TechLogo from "../ui/TechLogo"
 import Image from "next/image"
+import Avatar from "../ui/Avatar"
 
 export default function LandingSection() {
   return (
@@ -39,24 +40,21 @@ export default function LandingSection() {
         </div>
 
         {/* Right Content */}
-        <div className="flex flex-col items-center md:items-end gap-6">
+        <div className="flex flex-col items-center gap-6">
 
-            {/* Image */}
-            <Image
+        {/* Image */}
+        <Avatar
             src="/images/setto.png"
             alt="Setto"
-            width={420}
-            height={420}
-            priority
             />
 
-            {/* Tech Stack Logos */}
-            <div className="flex gap-4">
+        {/* Tech Stack Logos */}
+        <div className="flex gap-4 justify-center">
             <TechLogo src="/tech/react.png" alt="React" />
             <TechLogo src="/tech/next.png" alt="Next.js" />
             <TechLogo src="/tech/fastapi.png" alt="FastAPI" />
             <TechLogo src="/tech/supabase.png" alt="Supabase" />
-            </div>
+        </div>
 
         </div>
 

@@ -3,6 +3,7 @@ export default function Section({ children, bg = "white" }) {
     white: "bg-white text-black",
     dark: "bg-[#001C40] text-white",
     gray: "bg-gray-50 text-black",
+    custom: "bg-[#023859] text-white"
   }
 
   return (
