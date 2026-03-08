@@ -7,12 +7,19 @@ export default function ProjectsSection() {
 
       <div className="grid md:grid-cols-2 gap-6">
 
-        {/* Left Large Project */}
+        {/* Large Left Project */}
         <ProjectCard
           href="/projects/security-platform"
           image="/projects/security-platform.png"
           title="AI Security Monitoring Platform"
+          description="Enterprise camera monitoring platform capable of processing thousands of surveillance streams with AI detection."
           height="520px"
+          tech={[
+            { src: "/tech/react.png", alt: "React" },
+            { src: "/tech/next.png", alt: "Next.js" },
+            { src: "/tech/fastapi.png", alt: "FastAPI" },
+            { src: "/tech/python.png", alt: "Python" }
+          ]}
         />
 
         {/* Right Column */}
@@ -21,15 +28,25 @@ export default function ProjectsSection() {
           <ProjectCard
             href="/projects/coffee-saas"
             image="/projects/coffee-saas.png"
-            title="Coffee Shop SaaS Platform"
+            title="Coffee Shop SaaS"
+            description="Multi-tenant SaaS platform for coffee shops with loyalty systems, ordering queues, and customizable storefronts."
             height="250px"
+            tech={[
+              { src: "/tech/next.png", alt: "Next.js" },
+              { src: "/tech/supabase.png", alt: "Supabase" }
+            ]}
           />
 
           <ProjectCard
             href="/projects/code-learning"
             image="/projects/code-learning.png"
             title="Interactive Coding Platform"
+            description="Online learning platform that executes student code and provides automated feedback similar to CodeChum."
             height="250px"
+            tech={[
+              { src: "/tech/react.png", alt: "React" },
+              { src: "/tech/python.png", alt: "Python" }
+            ]}
           />
 
         </div>
