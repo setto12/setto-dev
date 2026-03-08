@@ -3,7 +3,7 @@ import ContactPill from "../ui/ContactPill"
 
 export default function ContactSection() {
   return (
-    <Section bg="dark">
+    <Section bg="custom">
 
       <div className="grid md:grid-cols-2 gap-16 items-center">
 
@@ -40,22 +40,22 @@ export default function ContactSection() {
           <ContactPill
             icon="/contact/gmail.png"
             label="Email"
-            value="setto@email.com"
-            href="mailto:setto@email.com"
+            value="dayao.seth@gmail.com"
+            // href="mailto:dayao.seth@gmail.com"
           />
 
           <ContactPill
-            icon="/contact/github.png"
-            label="GitHub"
-            value="github.com/setto"
-            href="https://github.com/setto"
+            icon="/contact/whatsapp.png"
+            label="WhatsApp"
+            value="Setto: +63 9685417153"
+            // href="https://whatsapp.com/setto"
           />
 
           <ContactPill
             icon="/contact/linkedin.png"
             label="LinkedIn"
             value="linkedin.com/in/setto"
-            href="https://linkedin.com/in/setto"
+            href="https://www.linkedin.com/in/seth-dayao-35511928b"
           />
 
         </div>
