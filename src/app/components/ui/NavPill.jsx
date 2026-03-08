@@ -13,7 +13,11 @@ export default function NavPill({ href, label }) {
       className={`
         px-4 py-1.5 rounded-full text-sm font-medium
         transition-all duration-200
-        ${active ? "bg-black text-white" : "text-gray-700 hover:bg-gray-100"}
+        ${
+          active
+            ? "bg-white text-[#023859]"
+            : "text-white hover:bg-white/20"
+        }
       `}
     >
       {label}

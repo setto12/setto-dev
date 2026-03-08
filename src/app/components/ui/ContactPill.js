@@ -15,7 +15,7 @@ export default function ContactPill({
       bg-white
       shadow-md
       hover:shadow-lg
-      transition
+      transition hover:-translate-y-1 hover:bg-gray-50
     ">
       {/* Icon */}
       <div className="relative w-12 h-12">

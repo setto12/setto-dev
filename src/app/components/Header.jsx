@@ -3,10 +3,18 @@ import NavPill from "./ui/NavPill"
 
 export default function Header() {
   return (
-    <header className="w-full border-b bg-white">
+    <header className="
+      fixed top-0 left-0 w-full z-50
+      backdrop-blur-md
+      bg-white/10
+      border-b border-white/10
+    ">
       <div className="max-w-6xl mx-auto flex items-center justify-between py-4 px-6">
 
-        <Link href="/" className="text-xl font-semibold">
+        <Link
+          href="/"
+          className="text-xl font-semibold text-white tracking-tight"
+        >
           Setto.dev
         </Link>
 
