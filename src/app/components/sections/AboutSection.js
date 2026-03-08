@@ -3,7 +3,7 @@ import Avatar from "../ui/Avatar"
 
 export default function AboutSection() {
   return (
-    <Section bg="dark">
+    <Section bg="dark" id="about">
 
       <div className="grid md:grid-cols-2 gap-16 items-center">
 

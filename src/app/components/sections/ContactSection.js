@@ -3,7 +3,7 @@ import ContactPill from "../ui/ContactPill"
 
 export default function ContactSection() {
   return (
-    <Section bg="custom">
+    <Section bg="custom" id="contact">
 
       <div className="grid md:grid-cols-2 gap-16 items-center">
 

@@ -11,18 +11,15 @@ export default function Header() {
     ">
       <div className="max-w-6xl mx-auto flex items-center justify-between py-4 px-6">
 
-        <Link
-          href="/"
-          className="text-xl font-semibold text-white tracking-tight"
-        >
+        <Link href="/" className="text-xl font-semibold text-white">
           Setto.dev
         </Link>
 
         <nav className="flex gap-3">
-          <NavPill href="/" label="Home" />
-          <NavPill href="/projects" label="Projects" />
-          <NavPill href="/services" label="Services" />
-          <NavPill href="/contact" label="Contact" />
+          <NavPill href="#home" label="Home" />
+          <NavPill href="#projects" label="Projects" />
+          <NavPill href="#about" label="About" />
+          <NavPill href="#contact" label="Contact" />
         </nav>
 
       </div>

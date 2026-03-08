@@ -1,4 +1,4 @@
-export default function Section({ children, bg = "white" }) {
+export default function Section({ children, bg = "white", id }) {
   const bgVariants = {
     white: "bg-white text-black",
     dark: "bg-[#001C40] text-white",
@@ -7,7 +7,7 @@ export default function Section({ children, bg = "white" }) {
   }
 
   return (
-    <section className={`${bgVariants[bg]} w-full py-24`}>
+    <section id={id} className={`${bgVariants[bg]} w-full py-28`}>
       <div className="max-w-7xl mx-auto px-6">
         {children}
       </div>

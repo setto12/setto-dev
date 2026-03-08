@@ -6,7 +6,7 @@ import Avatar from "../ui/Avatar"
 
 export default function LandingSection() {
   return (
-    <Section bg="dark">
+    <Section bg="dark" id="home">
 
       <div className="grid md:grid-cols-2 gap-12 items-center">
 

@@ -3,7 +3,7 @@ import ProjectCard from "../ui/ProjectCard"
 
 export default function ProjectsSection() {
   return (
-    <Section bg="custom">
+    <Section bg="custom" id="projects">
 
       <div className="grid md:grid-cols-2 gap-6">
 
