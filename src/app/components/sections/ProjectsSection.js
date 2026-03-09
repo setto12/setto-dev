@@ -5,12 +5,12 @@ export default function ProjectsSection() {
   return (
     <Section bg="custom" id="projects">
 
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid md:grid-cols-2 gap-6 items-start">
 
         {/* Large Left Project */}
         <ProjectCard
-          href="/projects/cleaning-services-booking-2.png"
-          image="/projects/cleaning-services-booking-2.png"
+          href="/projects/cleaning-services.png"
+          image="/projects/cleaning-services.png"
           title="Cleaning Services Booking App"
           description="Booking app for a Cleaning Company"
           height="auto"
@@ -28,21 +28,20 @@ export default function ProjectsSection() {
             image="/projects/coffee.png"
             title="Simple Website - Coffee Shop"
             description="Simple Coffee Shop Website"
-            height="250px"
+            height="auto"
             tech={[
               { src: "/tech/react.png", alt: "react.js" },
             ]}
           />
 
           <ProjectCard
-            href="/projects/simple-website"
+            href="/projects/simple-website.png"
             image="/projects/simple-website.png"
             title="Simple Website for Petshop"
             description="A simple website that showcases the products of a petshop, gives information about the shop, and answers frequently asked questions"
-            height="250px"
+            height="auto"
             tech={[
-              { src: "/tech/react.png", alt: "React" },
-              { src: "/tech/python.png", alt: "Python" }
+              { src: "/tech/next.png", alt: "Next" },
             ]}
           />
 

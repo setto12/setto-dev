@@ -33,8 +33,8 @@ export default function LandingSection() {
 
             {/* CTA Buttons */}
             <div className="flex gap-4">
-            <Button variant="filled">Hire Me</Button>
-            <Button variant="outline">View Projects</Button>
+            <Button variant="filled" href="#contact">Hire Me</Button>
+            <Button variant="outline" href="#projects">View Projects</Button>
             </div>
 
         </div>

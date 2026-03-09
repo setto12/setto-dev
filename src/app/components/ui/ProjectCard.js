@@ -10,14 +10,12 @@ export default function ProjectCard({
   title,
   description,
   tech = [],
-  width = "100%",
-  height = "300px"
+  width = "100%"
 }) {
   return (
     <Link
       href={href}
-      className="group relative block overflow-hidden rounded-xl shadow-lg"
-      style={{ width, height }}
+      className="group relative block overflow-hidden rounded-xl shadow-lg block"
     >
     <div className="relative rounded-xl overflow-hidden bg-gray-100">
 
