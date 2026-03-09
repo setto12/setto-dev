@@ -35,10 +35,10 @@ export default function ProjectsSection() {
           />
 
           <ProjectCard
-            href="/projects/code-learning"
-            image="/projects/code-learning.png"
-            title="Interactive Coding Platform"
-            description="Online learning platform that executes student code and provides automated feedback similar to CodeChum."
+            href="/projects/simple-website"
+            image="/projects/simple-website.png"
+            title="Simple Website for Petshop"
+            description="A simple website that showcases the products of a petshop, gives information about the shop, and answers frequently asked questions"
             height="250px"
             tech={[
               { src: "/tech/react.png", alt: "React" },
