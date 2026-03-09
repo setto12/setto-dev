@@ -19,13 +19,25 @@ export default function ProjectCard({
       className="group relative block overflow-hidden rounded-xl shadow-lg"
       style={{ width, height }}
     >
-      {/* Project Image */}
+    <div className="relative rounded-xl overflow-hidden bg-gray-100">
+
+      {/* Browser Frame */}
+      <div className="absolute top-0 left-0 right-0 h-8 bg-gray-900 flex items-center gap-2 px-3 z-10">
+        <div className="w-3 h-3 bg-red-400 rounded-full"></div>
+        <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+        <div className="w-3 h-3 bg-green-400 rounded-full"></div>
+      </div>
+
+      {/* Screenshot */}
       <Image
         src={image}
         alt={title}
-        fill
-        className="object-cover transition-transform duration-300 group-hover:scale-105"
+        width={1278}
+        height={1391}
+        className="w-full h-auto pt-8"
       />
+
+    </div>
 
       {/* Hover Overlay */}
       <div className="absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-end p-6">

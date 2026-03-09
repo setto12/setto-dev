@@ -9,16 +9,14 @@ export default function ProjectsSection() {
 
         {/* Large Left Project */}
         <ProjectCard
-          href="/projects/security-platform"
-          image="/projects/security-platform.png"
-          title="AI Security Monitoring Platform"
-          description="Enterprise camera monitoring platform capable of processing thousands of surveillance streams with AI detection."
-          height="520px"
+          href="/projects/cleaning-services-booking-2.png"
+          image="/projects/cleaning-services-booking-2.png"
+          title="Cleaning Services Booking App"
+          description="Booking app for a Cleaning Company"
+          height="auto"
           tech={[
-            { src: "/tech/react.png", alt: "React" },
             { src: "/tech/next.png", alt: "Next.js" },
-            { src: "/tech/fastapi.png", alt: "FastAPI" },
-            { src: "/tech/python.png", alt: "Python" }
+            { src: "/tech/supabase.png", alt: "Supabase" },
           ]}
         />
 
