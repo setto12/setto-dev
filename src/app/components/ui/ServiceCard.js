@@ -67,7 +67,7 @@ export default function ServiceCard({
 
         {/* Price */}
         <div className="font-semibold text-[#001C40]">
-          Starting at ₱{price.toLocaleString()}
+          Starts at ₱{price.toLocaleString()}
         </div>
 
       </div>

@@ -24,14 +24,13 @@ export default function ProjectsSection() {
         <div className="flex flex-col gap-6">
 
           <ProjectCard
-            href="/projects/coffee-saas"
-            image="/projects/coffee-saas.png"
-            title="Coffee Shop SaaS"
-            description="Multi-tenant SaaS platform for coffee shops with loyalty systems, ordering queues, and customizable storefronts."
+            href="/projects/coffee.png"
+            image="/projects/coffee.png"
+            title="Simple Website - Coffee Shop"
+            description="Simple Coffee Shop Website"
             height="250px"
             tech={[
-              { src: "/tech/next.png", alt: "Next.js" },
-              { src: "/tech/supabase.png", alt: "Supabase" }
+              { src: "/tech/react.png", alt: "react.js" },
             ]}
           />
 
