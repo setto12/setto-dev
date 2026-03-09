@@ -53,6 +53,7 @@ export default function LandingSection() {
             <TechLogo src="/tech/react.png" alt="React" />
             <TechLogo src="/tech/next.png" alt="Next.js" />
             <TechLogo src="/tech/fastapi.png" alt="FastAPI" />
+            <TechLogo src="/tech/python.png" alt="Python" />
             <TechLogo src="/tech/supabase.png" alt="Supabase" />
         </div>
 
