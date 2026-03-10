@@ -49,12 +49,17 @@ export default function LandingSection() {
             />
 
         {/* Tech Stack Logos */}
-        <div className="flex gap-4 justify-center">
+        <div className="grid grid-cols-3 gap-4 sm:flex sm:flex-wrap sm:justify-center">
             <TechLogo src="/tech/react.png" alt="React" />
             <TechLogo src="/tech/next.png" alt="Next.js" />
             <TechLogo src="/tech/fastapi.png" alt="FastAPI" />
-            <TechLogo src="/tech/python.png" alt="Python" />
             <TechLogo src="/tech/supabase.png" alt="Supabase" />
+            <TechLogo src="/tech/python.png" alt="Python" />
+            <TechLogo
+                src="/tech/javascript.png"
+                alt="JavaScript"
+                shape="square"
+            />
         </div>
 
         </div>
