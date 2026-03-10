@@ -54,7 +54,7 @@ export default function LandingSection() {
             <TechLogo src="/tech/supabase.png" alt="Supabase" />
             <TechLogo src="/tech/python.png" alt="Python" />
             <TechLogo
-              src="/tech/javascript.png"
+              src="/tech/JavaScript.png"
               alt="JavaScript"
               shape="square"
             />
