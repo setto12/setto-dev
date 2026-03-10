@@ -10,7 +10,7 @@ export default function AboutSection() {
         {/* Left Avatar */}
         <div className="flex justify-center md:justify-start">
           <Avatar
-            src="/images/setto.png"
+            src="/images/setto-suit.jpeg"
             alt="Setto"
             size={320}
           />
@@ -19,15 +19,15 @@ export default function AboutSection() {
         {/* Right Content */}
         <div className="space-y-6">
 
-          <h3 className="text-[24px] font-semibold text-[#FFFFFF]">
+          <h3 className="text-lg sm:text-xl md:text-[24px] font-semibold text-white">
             About Me
           </h3>
 
-          <h2 className="text-[48px] font-bold leading-tight">
+          <h2 className="text-3xl sm:text-4xl md:text-[48px] font-bold leading-tight">
             Developer Who Loves to Build
           </h2>
 
-          <p className="text-[24px] leading-relaxed text-white-700">
+          <p className="text-base sm:text-lg md:text-[24px] leading-relaxed text-gray-200">
             I'm a software developer focused on building scalable web
             applications and reliable backend systems. My work often
             revolves around modern technologies such as React, Next.js,

@@ -10,15 +10,15 @@ export default function ContactSection() {
         {/* Left Content */}
         <div className="space-y-6">
 
-          <h3 className="text-[24px] font-semibold text-gray-300">
+          <h3 className="text-lg sm:text-xl md:text-[24px] font-semibold text-gray-300">
             Contact Me
           </h3>
 
-          <h2 className="text-[48px] font-bold">
+          <h2 className="text-3xl sm:text-4xl md:text-[48px] font-bold">
             Let's Talk!
           </h2>
 
-          <p className="text-[24px] leading-relaxed text-gray-200">
+          <p className="text-base sm:text-lg md:text-[24px] leading-relaxed text-gray-200">
             If you're looking for a developer who can build reliable
             systems and scalable web applications, I'd love to hear
             about your project.
@@ -41,14 +41,12 @@ export default function ContactSection() {
             icon="/contact/gmail.png"
             label="Email"
             value="dayao.seth@gmail.com"
-            // href="mailto:dayao.seth@gmail.com"
           />
 
           <ContactPill
             icon="/contact/whatsapp.png"
             label="WhatsApp"
             value="Setto: +63 9685417153"
-            // href="https://whatsapp.com/setto"
           />
 
           <ContactPill
